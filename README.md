@@ -30,7 +30,7 @@ Expansión para ver todos los permisos de forma detallada ➕.
 
 🚀 Cómo ejecutar
 Clona el repositorio:
-
+```bash
 git clone https://github.com/PabloNavarroFontcuberta/SecApp.git
 
 
@@ -45,6 +45,7 @@ Si los permisos han cambiado desde la última ejecución, verás una notificaci�
 Pulsa en "Ver JSON generado" para revisar el archivo en tu app favorita 📖.
 
 📂 Estructura del archivo JSON
+```bash
   {
     "nombre": "WhatsApp",
     "paquete": "com.whatsapp",
