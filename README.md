@@ -40,15 +40,24 @@ Una aplicación Android desarrollada con **Jetpack Compose** que lista todas las
    git clone https://github.com/PabloNavarroFontcuberta/SecApp.git
 
 
-##Ábrelo en Android Studio 📱.
+## Ábrelo en Android Studio 📱.
 Compila y ejecuta en un dispositivo físico (preferiblemente con muchas apps instaladas) ⚙️.
 
-##🧪 Uso
+## 🧪 Uso
 Al iniciar, escaneará automáticamente las apps y generará el JSON.
 
 Si los permisos han cambiado desde la última ejecución, verás una notificación 📣.
 
 Pulsa en "Ver JSON generado" para revisar el archivo en tu app favorita 📖.
+
+
+
+## 📌 Nota de seguridad
+Esta app no modifica nada, solo lee y muestra los permisos de apps instaladas, útil para auditorías personales 🕵️‍♂️.
+
+## 🧑‍💻 Autor
+## 👨‍💻 Pablo Navarro Fontcuberta
+## 📍 GitHub: @PabloNavarroFontcuberta
 
 ## 📂 Estructura del archivo JSON
    ```bash
@@ -60,11 +69,4 @@ Pulsa en "Ver JSON generado" para revisar el archivo en tu app favorita 📖.
         "android.permission.READ_CONTACTS"
       ]
     }
-
-## 📌 Nota de seguridad
-Esta app no modifica nada, solo lee y muestra los permisos de apps instaladas, útil para auditorías personales 🕵️‍♂️.
-
-## 🧑‍💻 Autor
-## 👨‍💻 Pablo Navarro Fontcuberta
-## 📍 GitHub: @PabloNavarroFontcuberta
 
